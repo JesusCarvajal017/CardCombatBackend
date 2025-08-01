@@ -1,0 +1,520 @@
+[
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Cards, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Card",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Cards, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.CardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Cards, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Card",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.CardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Cards, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Cards, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.CardDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Card/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/MazoPlayer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/MazoPlayer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MazoPlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/MazoPlayer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MazoPlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/MazoPlayer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/MazoPlayer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Move",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Move",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Move",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Move/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Move/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Player, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Player",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Player, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Player",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.PlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Player, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Player",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.PlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Player, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Player/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Player, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.PlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Player/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.RoomDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Room",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.RoomDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Room/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Room/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Round",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Round",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Round",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.MoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Round/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/Round/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Entity.Dtos.Card.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.User, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.UserDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
