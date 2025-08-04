@@ -56,6 +56,9 @@ namespace Web.Extendes
             services.AddScoped<IQuerysMove, MoveData >();
             services.AddScoped<IQueryCardRoundServices, MoverRoundBusiness>();
 
+            services.AddScoped<IQuerysPlayer, PlayerData>();
+            services.AddScoped<IQueryPlayerServices, PlayerBusiness>();
+
 
             services.AddScoped<IGenericHerlpers, GenericHelpers>();
 

@@ -344,6 +344,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web.Controllers.Implements.Card.PlayerController",
+    "Method": "GetCardRound",
+    "RelativePath": "api/Player/PlayersRoom/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Room, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoomDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Room",

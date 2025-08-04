@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Entity.Migrations
 {
     /// <inheritdoc />
-    public partial class CardCombat : Migration
+    public partial class CartCombat : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,6 +18,7 @@ namespace Entity.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Name = table.Column<string>(type: "text", nullable: false),
+                    Img = table.Column<string>(type: "text", nullable: false),
                     Legenday = table.Column<int>(type: "integer", nullable: false),
                     Focer = table.Column<double>(type: "double precision", nullable: false),
                     Speed = table.Column<double>(type: "double precision", nullable: false),
