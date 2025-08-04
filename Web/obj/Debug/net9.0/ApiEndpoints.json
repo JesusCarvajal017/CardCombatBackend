@@ -74,6 +74,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApp.Controllers.LoginController",
+    "Method": "Validar",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Entity.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.MazoPlayer, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerQueryDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MazoPlayerDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/MazoPlayer",
@@ -148,6 +164,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web.Controllers.Implements.Card.MazoPlayerController",
+    "Method": "GetAllCardsId",
+    "RelativePath": "api/MazoPlayer/cartasJugador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Move",
@@ -210,6 +242,22 @@
     "Method": "Delete",
     "RelativePath": "api/Move/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.Implements.Card.MoveController",
+    "Method": "GetCardRound",
+    "RelativePath": "api/Move/RondaCartas/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -370,7 +418,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Round",
     "HttpMethod": "GET",
@@ -380,7 +428,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Create",
     "RelativePath": "api/Round",
     "HttpMethod": "POST",
@@ -389,14 +437,14 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Entity.Dtos.Card.MoveDto",
+        "Type": "Entity.Dtos.Card.RoundDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Update",
     "RelativePath": "api/Round",
     "HttpMethod": "PUT",
@@ -405,14 +453,14 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Entity.Dtos.Card.MoveDto",
+        "Type": "Entity.Dtos.Card.RoundDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetById",
     "RelativePath": "api/Round/{id}",
     "HttpMethod": "GET",
@@ -428,7 +476,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Move, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.MoveDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "ContainingType": "Web.Controllers.Implements.Abstract.GenericController\u00603[[Entity.Model.Card.Round, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Entity.Dtos.Card.RoundDto, Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "Delete",
     "RelativePath": "api/Round/{id}",
     "HttpMethod": "DELETE",

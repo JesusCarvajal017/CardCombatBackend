@@ -38,6 +38,10 @@ namespace Entity.Migrations
                     b.Property<double>("Focer")
                         .HasColumnType("double precision");
 
+                    b.Property<string>("Img")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("Legenday")
                         .HasColumnType("integer");
 

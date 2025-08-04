@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Entity.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20250801153230_CardCombat")]
-    partial class CardCombat
+    [Migration("20250804042451_ActualizacionMer")]
+    partial class ActualizacionMer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,10 @@ namespace Entity.Migrations
 
                     b.Property<double>("Focer")
                         .HasColumnType("double precision");
+
+                    b.Property<string>("Img")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<int>("Legenday")
                         .HasColumnType("integer");

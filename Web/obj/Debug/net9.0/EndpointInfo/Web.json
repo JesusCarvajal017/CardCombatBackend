@@ -119,6 +119,60 @@
         }
       }
     },
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MazoPlayer/cartasJugador/{id}": {
+      "get": {
+        "tags": [
+          "MazoPlayer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MazoPlayer": {
       "get": {
         "tags": [
@@ -214,6 +268,29 @@
       "delete": {
         "tags": [
           "MazoPlayer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Move/RondaCartas/{id}": {
+      "get": {
+        "tags": [
+          "Move"
         ],
         "parameters": [
           {
@@ -594,17 +671,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             }
           }
@@ -623,17 +700,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/MoveDto"
+                "$ref": "#/components/schemas/RoundDto"
               }
             }
           }
@@ -817,6 +894,10 @@
             "type": "string",
             "nullable": true
           },
+          "img": {
+            "type": "string",
+            "nullable": true
+          },
           "legenday": {
             "type": "integer",
             "format": "int32"
@@ -844,6 +925,20 @@
           "brutality": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -931,6 +1026,28 @@
           "end": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoundDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "number": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "end": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

@@ -5,6 +5,7 @@ namespace Entity.Model.Card
     public class Cards : ABaseEntity
     {
         public string Name { get; set; }
+        public string Img { get; set; }
         public int Legenday { get; set; }
         public double Focer { get; set; }
         public double Speed { get; set; }

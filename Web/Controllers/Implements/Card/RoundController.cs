@@ -8,13 +8,13 @@ namespace Web.Controllers.Implements.Card
 {
     public class RoundController
        : GenericController<
-       Move,
-       MoveDto,
-       MoveDto>
+       Round,
+       RoundDto,
+       RoundDto>
     {
         public RoundController(
-            IQueryServices<Move, MoveDto> q,
-            ICommandService<Move, MoveDto> c)
+            IQueryServices<Round, RoundDto> q,
+            ICommandService<Round, RoundDto> c)
           : base(q, c) { }
     }
 
