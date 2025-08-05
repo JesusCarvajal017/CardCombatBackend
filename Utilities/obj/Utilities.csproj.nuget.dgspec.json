@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AMD\\Juego\\CardCombatBackend\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\Entity.csproj": {
+    "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Juan Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\AMD\\Juego\\CardCombatBackend\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AMD\\Juego\\CardCombatBackend\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\AMD\\Juego\\CardCombatBackend\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\AMD\\Juego\\CardCombatBackend\\Utilities\\obj\\",
+        "projectPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Juan Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,8 +113,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\AMD\\Juego\\CardCombatBackend\\Entity\\Entity.csproj"
+              "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Entity.csproj"
               }
             }
           }
@@ -164,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,7 @@ namespace Entity.Model.Card
     {
         public string Name { get; set; }
         public int RoomId { get; set; }
-
+        public int Points { get; set; }
         public Room Room { get; set; }
         public IEnumerable<MazoPlayer> MazoPlayer { get; set; }
         public IEnumerable<Move> Move { get; set; }

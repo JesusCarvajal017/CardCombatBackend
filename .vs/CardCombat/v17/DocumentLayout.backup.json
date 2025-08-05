@@ -1,42 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\AMD\\Juego\\CardCombatBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\amd\\juego\\cardcombatbackend\\data\\implements\\especific\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|solutionrelative:data\\implements\\especific\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Migrations\\20250805042735_MigrationInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\20250805042735_MigrationInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\amd\\juego\\cardcombatbackend\\web\\extendes\\addinjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|solutionrelative:web\\extendes\\addinjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\entity\\dtos\\card\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\card\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\amd\\juego\\cardcombatbackend\\web\\controllers\\implements\\card\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\card\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\entity\\model\\card\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|solutionrelative:entity\\model\\card\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\amd\\juego\\cardcombatbackend\\web\\controllers\\implements\\card\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\web\\controllers\\implements\\card\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\card\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\amd\\juego\\cardcombatbackend\\business\\implements\\cqrs\\cards\\querys\\playerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\implements\\cqrs\\cards\\querys\\playerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\amd\\juego\\cardcombatbackend\\business\\interfaces\\querys\\iqueryplayerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\interfaces\\querys\\iqueryplayerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\amd\\juego\\cardcombatbackend\\business\\interfaces\\querys\\iqueryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\interfaces\\querys\\iqueryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\amd\\juego\\cardcombatbackend\\data\\implements\\cqrs\\card\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\data\\implements\\cqrs\\card\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|solutionrelative:data\\implements\\cqrs\\card\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\amd\\juego\\cardcombatbackend\\data\\implements\\cqrs\\card\\movedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\data\\implements\\especific\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|solutionrelative:data\\implements\\especific\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\entity\\dbscript\\insert_cards.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|solutionrelative:entity\\dbscript\\insert_cards.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\web\\extendes\\addinjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|solutionrelative:web\\extendes\\addinjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\web\\controllers\\implements\\card\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8ABB8F-E4E8-4400-8F0F-82A2AD03580A}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\card\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\business\\implements\\cqrs\\cards\\querys\\playerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\implements\\cqrs\\cards\\querys\\playerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\business\\interfaces\\querys\\iqueryplayerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\interfaces\\querys\\iqueryplayerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\business\\interfaces\\querys\\iqueryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6BFE6AD-747D-4750-A1FF-48B1708F683A}|Business\\Business.csproj|solutionrelative:business\\interfaces\\querys\\iqueryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\data\\implements\\cqrs\\card\\movedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77EC43E3-6938-436F-92DF-61C75C902B29}|Data\\Data.csproj|solutionrelative:data\\implements\\cqrs\\card\\movedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|c:\\users\\juan manuel\\desktop\\cardcombatbackend\\entity\\dbscript\\insert_cards.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{8BA37C31-BC9E-43AD-9666-A9EF433D4D59}|Entity\\Entity.csproj|solutionrelative:entity\\dbscript\\insert_cards.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,12 +71,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250805042735_MigrationInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Migrations\\20250805042735_MigrationInicial.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250805042735_MigrationInicial.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Migrations\\20250805042735_MigrationInicial.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250805042735_MigrationInicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T04:27:35.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Dtos\\Card\\PlayerDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\Card\\PlayerDto.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Dtos\\Card\\PlayerDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\Card\\PlayerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T04:20:28.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Model\\Card\\Player.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Card\\Player.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\Model\\Card\\Player.cs",
+              "RelativeToolTip": "Entity\\Model\\Card\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T04:19:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "insert_cards.sql ",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\dbScript\\insert_cards.sql",
+              "RelativeDocumentMoniker": "Entity\\dbScript\\insert_cards.sql",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Entity\\dbScript\\insert_cards.sql",
+              "RelativeToolTip": "Entity\\dbScript\\insert_cards.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-04T20:38:33.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginData.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\Especific\\LoginData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\Especific\\LoginData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\Especific\\LoginData.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\Especific\\LoginData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\Especific\\LoginData.cs",
               "RelativeToolTip": "Data\\Implements\\Especific\\LoginData.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T20:18:10.175Z",
               "EditorCaption": ""
@@ -65,9 +136,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "RoomController.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\RoomController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\Card\\RoomController.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\RoomController.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\RoomController.cs",
               "RelativeToolTip": "Web\\Controllers\\Implements\\Card\\RoomController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\PlayerController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\Card\\PlayerController.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Controllers\\Implements\\Card\\PlayerController.cs",
               "RelativeToolTip": "Web\\Controllers\\Implements\\Card\\PlayerController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,11 +160,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "IQueryPlayerServices.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
               "RelativeToolTip": "Business\\Interfaces\\Querys\\IQueryPlayerServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,24 +173,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PlayerBusiness.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
               "RelativeToolTip": "Business\\Implements\\CQRS\\Cards\\Querys\\PlayerBusiness.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T18:24:35.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AddInjectController.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Extendes\\AddInjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Extendes\\AddInjectController.cs",
               "RelativeDocumentMoniker": "Web\\Extendes\\AddInjectController.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Web\\Extendes\\AddInjectController.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Web\\Extendes\\AddInjectController.cs",
               "RelativeToolTip": "Web\\Extendes\\AddInjectController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAgwDoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "IQueryServices.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryServices.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryServices.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\Querys\\IQueryServices.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryServices.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Business\\Interfaces\\Querys\\IQueryServices.cs",
               "RelativeToolTip": "Business\\Interfaces\\Querys\\IQueryServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -141,11 +212,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "PlayerData.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\PlayerData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\PlayerData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\CQRS\\Card\\PlayerData.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\PlayerData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\PlayerData.cs",
               "RelativeToolTip": "Data\\Implements\\CQRS\\Card\\PlayerData.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,11 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MoveData.cs",
-              "DocumentMoniker": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\MoveData.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\MoveData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\CQRS\\Card\\MoveData.cs",
-              "ToolTip": "C:\\AMD\\Juego\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\MoveData.cs",
+              "ToolTip": "C:\\Users\\Juan Manuel\\Desktop\\CardCombatBackend\\Data\\Implements\\CQRS\\Card\\MoveData.cs",
               "RelativeToolTip": "Data\\Implements\\CQRS\\Card\\MoveData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
